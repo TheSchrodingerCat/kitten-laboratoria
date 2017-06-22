@@ -1,0 +1,40 @@
+
+@media (min-width: 644px) and (max-width: 1400px){
+	#fondo{
+		background-image: url(../img/Landscape.jpg);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	#medium, #small{
+		display: none;
+	}
+
+}
+
+@media (min-width: 431px) and (max-width: 643px){
+	#fondo{
+		background-image: url(../img/dawn.png);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	#large, #small{
+		display: none;
+	}
+}
+
+@media (min-width: 1px) and (max-width: 430px){
+	#fondo{
+		background-image: url(../img/maxresdefault.jpg);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	#large, #medium{
+		display: none;
+	}
+}
